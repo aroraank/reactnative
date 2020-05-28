@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import PresentationalComponent from "./PresentationalComponent";
 import List from "./list.js";
 import Inputs from "./inputs.js";
+import ScrollViewExample from "./scrollview.js";
 
 export default class App extends React.Component {
   state = {
@@ -20,6 +21,7 @@ export default class App extends React.Component {
         />
         <List />
         <Inputs />
+        <ScrollViewExample />
       </View>
     );
   }
