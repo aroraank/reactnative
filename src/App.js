@@ -5,6 +5,7 @@ import List from "./list.js";
 import Inputs from "./inputs.js";
 import ScrollViewExample from "./scrollview.js";
 import ImagesExample from "./image.js";
+import HttpExample from "./httpexample.js";
 
 export default class App extends React.Component {
   state = {
@@ -16,6 +17,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View>
+        <HttpExample />
         <ImagesExample />
         <PresentationalComponent
           myState={this.state.myState}
